@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+netstat -1p 
+
+// Show all active TCP and UDP connections with process information but not on macos
