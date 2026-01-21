@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-netstat -an | grep LISTEN              
-
+netstat -lp
