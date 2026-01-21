@@ -1,2 +1,2 @@
 #!/usr/bin/env bash                    
-nc -l 9898
+nc -1 9898
