@@ -1,2 +1,3 @@
-#!/usr/bin/env bash                    
-ip addr | grep -oP 'inet \K[\d.]+'   
+ #!/usr/bin/env bash                    
+  ifconfig | grep 'inet ' | awk '{print  
+  $2}'    
