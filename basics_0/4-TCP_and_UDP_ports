@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-netstat -1p 
+netstat -an | grep LISTEN              
 
-// Show all active TCP and UDP connections with process information but not on macos
